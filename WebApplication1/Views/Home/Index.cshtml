@@ -1,0 +1,56 @@
+﻿@*@{
+    ViewData["Title"] = "Home Page";
+}*@
+
+
+@section Styles{ 
+<link rel="stylesheet" href="~/css/index.css" />
+}
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="button">
+        <div class="item active">
+            <img src="~/images/s.jpg" class="img-responsive" />
+            <div class="carousel-caption " role="option">
+            </div>
+            @* 1144x563 image-size *@
+        </div>
+        <div class="item" role="button" type="Submit">
+            <img src="~/images/women3.jpg" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    <h2>Shop Women</h2>
+                </p>
+            </div>
+            @* 1144x563 image-size *@
+        </div>
+        <div class="item" role="button" type="Submit">
+            <img src="~/images/men1.jpg" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    <h2>Shop Men</h2>
+                </p>
+            </div>
+            @* 1144x563 image-size *@
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<br />
+<br />
+
+
+
